@@ -1,14 +1,18 @@
-#MICRO-FRAMEWORK PUSHBULLET BASH#
+#pbnotify : a tiny (tiny) script to send Pushbullet notifications#
 
-##Pré-requis##
+##Requirements##
 
-1. Installer curl
-2. Ajouter votre token dans le fichier pbnotify.sh
+1. curl
+2. add your Pushbullet token into the script
 3. chmod +755 pbnotify.sh
-4. Pour une execution depuis tout le système, placez le script dans un dossier contenu dans votre $PATH.
+4. You can use it on your whole system if you import it in $PATH$
 
-##Utilisation##
+##Usages##
 
-###Envoyer une note###
+###Send a note###
 
 sh pbnotify "Titre" "Message"
+
+##Note##
+
+It's a very simple script for my personnal use, feel free to grab it and complete it if you want.
