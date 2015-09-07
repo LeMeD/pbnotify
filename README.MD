@@ -7,12 +7,13 @@
 3. chmod +755 pbnotify.sh
 4. You can use it on your whole system if you import it in $PATH$
 
-##Usages##
+##Usage##
 
-###Send a note###
+###Send a text notification###
 
-sh pbnotify "Titre" "Message"
+sh pbnotify "title" "message"
 
-##Note##
+##Notes##
 
-It's a very simple script for my personnal use, feel free to grab it and complete it if you want.
+[Pushbullet API](https://docs.pushbullet.com/)
+It's a very simple script for my personnal use, feel free to grab it and complete it.
